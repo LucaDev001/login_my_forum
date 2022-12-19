@@ -1,0 +1,182 @@
+body{
+    background-color: #1d1d1d;
+}
+
+
+.textkk{
+    position: absolute;
+    top: 220px;
+    left: 23.2%;
+    font-family: font4;
+    font-size: 20px;
+    color: black;
+    text-shadow: 
+        -1px -1px 0px rgb(0, 4, 255),
+        -1px 1px 0px rgb(0, 4, 255),
+        1px -1px 0px rgb(0, 4, 255),
+        1px 0px 0px rgb(0, 4, 255);
+}
+
+.hs{
+    position: absolute;
+    top: 140px;
+    left: 860px;
+    width: 100px;
+}
+
+.hs2{
+    position: absolute;
+    top: 150px;
+    left: 413px;
+    width: 250px;
+}
+
+.title{
+    font-family: font4;
+    font-size: 50px;
+    position: absolute;
+    top: 150px;
+    left: 36%;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        -2px -2px 0px rgb(0, 4, 255),
+        -2px 2px 0px rgb(0, 4, 255),
+        2px -2px 0px rgb(0, 4, 255),
+        2px 0px 0px rgb(0, 4, 255);
+}
+
+.nave{
+    font-family: arial;
+    color: blue;
+}
+
+#buy{
+    color: rgb(11, 55, 179);
+    font-family: font1;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+#buy-2{
+    color: rgb(11, 55, 179);
+    font-family: font1;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    font-size: 17px;
+}
+
+.hvh_gif{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 40%;
+}
+
+.bio{
+    color:white;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 17px;
+    font: arial;
+    text-shadow: 
+        -2px -2px 0px black,
+        -2px 2px 0px black,
+        2px -2px 0px black,
+        2px 0px 0px black,
+}
+
+.bio2{
+    color:white;
+    position: absolute;
+    top: 350px;
+    left: 730px;
+    font-size: 17px;
+    font: arial;
+    text-shadow: 
+        -2px -2px 0px black,
+        -2px 2px 0px black,
+        2px -2px 0px black,
+        2px 0px 0px black,
+}
+
+.login{
+    position: absolute;
+    top: 20px;
+    right: 97px;
+}
+
+.bark1{
+    position: absolute;
+    top: 2px;
+    right: 75px;
+}
+
+.register{
+    position: absolute;
+    top: 20px;
+    right: 13px;
+}
+
+section
+{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  min-height: 0vh;
+  background: #222;
+}
+.wave
+{
+  position: relative;
+  width: 1000em;
+  height: 10px;
+  background: #fff;
+  -webkit-box-reflect: below 0px linear-gradient(transparent,#0005);
+}
+.wave::before
+{
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,#fb0094,#0000ff,#00ff00,#ffff00,#fb0094,#0000ff,
+  #00ff00,#ffff00,#fb0094);
+  animation: animate 20s linear infinite;
+  background-size: 500%;
+}
+.wave::after
+{
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,#fb0094,#0000ff,#00ff00,#ffff00,#fb0094,#0000ff,
+  #00ff00,#ffff00,#fb0094);
+  animation: animate 20s linear infinite;
+  background-size: 500%;
+  filter: blur(5px);
+}
+@keyframes animate
+{
+  0%
+  {
+    background-position: 0 0;
+  }
+  0%
+  {
+    background-position: 500% 0;
+  }
+}
+
+.click{
+  position: absolute;
+  left: 50%;
+  top: 550px;
+  transform: translateX(-50%);
+}
+
+h1{
+  font-family: arial;
+}

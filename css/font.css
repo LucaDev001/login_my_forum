@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "font1";
+    src: url(/css/font/test.ttf);
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: "font2";
+    src: url(/css/font/Platinum\ Sign.ttf);
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: "font3";
+    src: url(/css/font/test2.ttf);
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: "font4";
+    src: url(/css/font/paladins.ttf);
+    font-style: normal;
+ }
